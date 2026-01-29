@@ -6,6 +6,7 @@ function estPair(nombre) {
     return false;
   }
 }
+console.log(estPair(2));
 
 
 // 2- Crée une fonction pour inverser une chaîne donnée avec une boucle for
@@ -16,7 +17,7 @@ function inverserChaine(chaine) {
     resultat += chaine[i];
   }
 
-  return resultat;
+  return resultat;  
 }
 
 
