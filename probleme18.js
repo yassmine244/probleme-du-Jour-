@@ -10,7 +10,7 @@ var evenOccurrence = function(arr) {
  for (let  i=0; arr.length; i++)
  {
   let count= arr.filter(x=> x ===arr[i]).length;
-  if (count /2 == 0){
+  if (count  mod 2 == 0){
     return arr[i];
   }
  }
